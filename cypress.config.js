@@ -4,7 +4,6 @@ const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 module.exports = defineConfig({
     viewportWidth: 1920,
     viewportHeight: 1080,
-    pageLoadTimeout: 10000,
     defaultCommandTimeout: 10000,
     e2e: {
         setupNodeEvents(on, config) {
