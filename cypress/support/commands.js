@@ -46,8 +46,7 @@ Cypress.Commands.add("SignUp", (user) => {
             cy.get(passwordInput).type(user.pass);
             cy.get(TermsAndConditionsCheckbox).click({ force: true });
             cy.get(submitBTN).click();
-            // cy.wait(10000)
-            //     .url()
+            // cy.url()
             //     .should("contain", "/verify-email")
             //     .get(".sc-81d2e95d-3 strong")
             //     .should("contain", user.email);
@@ -87,8 +86,7 @@ Cypress.Commands.add("SignIn", (user) => {
             cy.get(emailInput).type(user.email);
             cy.get(passwordInput).type(user.pass);
             cy.get(submitBTN).click();
-            cy.wait(7000)
-                .url()
+            cy.url()
                 .should("contain", "#/app")
                 .get(hoverOnUserLogo)
                 .trigger("mouseover")
