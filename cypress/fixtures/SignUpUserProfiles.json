@@ -1,0 +1,32 @@
+{
+    "User": {
+        "id": "User",
+        "email": "Jack4573Jack@mail.to",
+        "name": "Jack Oliver",
+        "pass": "Jack_Oliver45."
+    },
+    "emptyEmailUser": {
+        "id": "emptyEmailUser",
+        "email": "",
+        "name": "Jack",
+        "pass": "TesT321TesT."
+    },
+    "emptyPassUser": {
+        "id": "emptyPassUser",
+        "email": "email@email.com",
+        "name": "Jack",
+        "pass": ""
+    },
+    "emptyNameUser": {
+        "id": "emptyNameUser",
+        "email": "email@email.com",
+        "name": "",
+        "pass": "TesT321TesT."
+    },
+    "emptyTermsUser": {
+        "id": "emptyTermsUser",
+        "email": "Jack4573Jack@mail.to",
+        "name": "Jack Oliver",
+        "pass": "Jack_Oliver45."
+    }
+}

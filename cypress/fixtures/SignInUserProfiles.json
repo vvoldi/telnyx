@@ -1,0 +1,27 @@
+{
+    "User": {
+        "id": "User",
+        "email": "98.kovalenko@gmail.com",
+        "pass": "TesT321TesT."
+    },
+    "invalidUser": {
+        "id": "invalidUser",
+        "email": "invalid@email.com",
+        "pass": "invalid_password"
+    },
+    "emptyEmailUser": {
+        "id": "emptyEmailUser",
+        "email": "",
+        "pass": "TesT321TesT."
+    },
+    "emptyPassUser": {
+        "id": "emptyPassUser",
+        "email": "98.kovalenko@gmail.com",
+        "pass": ""
+    },
+    "emptyUser": {
+        "id": "emptyUser",
+        "email": "",
+        "pass": ""
+    }
+}
